@@ -1,4 +1,4 @@
-Global
+/* Global */
 
 :root {
   /* Color */
@@ -6,6 +6,7 @@ Global
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
   --color-pink: #fe918d;
+  --color-naverGreen:#03cf5d;
   --color-dark-pink: #121111;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
@@ -47,7 +48,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 ul {
@@ -114,7 +115,7 @@ header {
 .search_box {
 	width: 520px;
 	height: 50px;
-	border: 2px solid #03cf5d;
+	border: 2px solid var(--color-naverGreen);
 	display: flex;
 	margin-top: 20px;
 }
@@ -136,17 +137,17 @@ header {
 	margin: 0;
 	padding: 0;
 	border: none;
-	background: #03cf5d;
+	background: var(--color-naverGreen);
 }
 
 .search_box i {
-	color: white;
+	color: var(--color-white);
 	font-size: 22px;
 	text-align: center;
 }
 
 #keyboard {
-	color: lightgray;
+	color: var(--color-dark-white);
 	font-size: 20px;
 	text-align: center;
 	width: 10%;
