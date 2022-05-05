@@ -1,0 +1,155 @@
+Global
+
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-white: #eeeeee;
+  --color-dark-white: #bdbdbd;
+  --color-pink: #fe918d;
+  --color-dark-pink: #121111;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #616161;
+  --color-light-grey: #7c7979;
+  --color-blue: #73aace;
+  --color-yellow: #f1d64e;
+  --color-orange: #feb546;
+  --color-black: #000000;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+  --size-border-radious: 4px;
+
+  /* Annimations */
+  --annimation-duration: 300ms;
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; 
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Typography */
+
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0;
+}
+
+header {
+  width: 1230px;
+  height: 160px;
+	display: flex;
+}
+
+.header_align {
+  display: flex;
+  justify-content: center;
+}
+
+.header_logo {
+	margin-right: 15px;
+	max-width: 150px;    
+	margin-top: 20px;
+}
+
+.search_box {
+	width: 520px;
+	height: 50px;
+	border: 2px solid #03cf5d;
+	display: flex;
+	margin-top: 20px;
+}
+
+.search_box input {
+	width: 90%;
+	height: 46px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	
+}
+
+.search_box button {
+	width: 10%;
+	height: 48px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: #03cf5d;
+}
+
+.search_box i {
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+
+#keyboard {
+	color: lightgray;
+	font-size: 20px;
+	text-align: center;
+	width: 10%;
+	padding-top:12px;
+}
+
+.link_set {
+  display: flex;
+}
