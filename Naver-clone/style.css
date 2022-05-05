@@ -91,15 +91,20 @@ p {
   margin: 4px 0;
 }
 
+/* Header */
+
 header {
   width: 1230px;
   height: 160px;
 	display: flex;
+  position: relative;
 }
 
 .header_align {
   display: flex;
   justify-content: center;
+  /* margin: auto;
+  margin-top: 50px; */
 }
 
 .header_logo {
@@ -151,5 +156,9 @@ header {
 }
 
 .link_set {
+  font-size: 3px;
   display: flex;
+  position: absolute;
+  right: 1px;
+  top: 1px;
 }
