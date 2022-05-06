@@ -5,7 +5,6 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #fe918d;
   --color-naverGreen:#03cf5d;
   --color-dark-pink: #121111;
   --color-dark-grey: #4d4d4d;
@@ -99,7 +98,6 @@ header {
   width: 1230px;
   height: 160px;
   display: flex;
-
 }
 
 .header_align {
@@ -166,3 +164,6 @@ header {
   margin: 0%;
   margin-top: 10px;
 }
+
+
+font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
