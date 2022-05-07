@@ -165,5 +165,19 @@ header {
   margin-top: 10px;
 }
 
+/* Navbar */
 
-font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+.navBar__group {
+  display: flex;
+  border: 2px solid var(--color-black);
+  border-top: var(--color-black);
+  border-bottom: var(--color-black);
+}
+
+.navBar__gruop__item {
+  display: inline-block;
+}
+/* 
+font-family { -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+} */
+
