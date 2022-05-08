@@ -63,6 +63,10 @@ button {
   outline: none;
 }
 
+.blind {
+  display: none;
+}
+
 /* Typography */
 
 h1 {
@@ -86,12 +90,12 @@ h3 {
   margin: 8px 0;
 }
 
-p {
+/* p {
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
   color: var(--color-black);
   margin: 4px 0;
-}
+} */
 
 /* Header */
 
@@ -201,7 +205,62 @@ header {
   bottom: 0.1px;
   left: 890px;
 }
-/* 
-font-family { -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
-} */
+
+/* Main */
+#section {
+  display: flex;
+  padding: 20px 30px;
+}
+
+/* Section Left */
+
+/* Section Right */
+
+.section__right {
+  width: 350px;
+}
+
+.section__right__login {
+  padding: 16px 16px 12px 17px;
+  background-color: #f7f9fa;
+  border: 1px solid #dae1e6;
+}
+
+.login__msg {
+  font-size: 12px;
+  color: var(--color-grey);
+  margin-bottom: 11px;
+}
+
+.login__link {
+  display: block;
+  padding: 15px 0px;
+  margin-bottom: 11px;
+  background-color: var(--color-naverGreen);
+  border: 1px solid #15c654;
+  border-radius: 2px;
+  color: var(--color-white);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.login__link p {
+  display: inline;
+  color: var(--color-white);
+}
+
+.login__sub {
+  display: flex;
+  font-size: 12px;
+  line-height: 16px;
+  color: #202020;
+  text-align: left;
+}
+
+.login__sub__idPassword a {
+  text-align: left;
+}
+
+
 
