@@ -198,8 +198,8 @@ header {
 .navBar__gruop__item-weather {
   display: block;
   position: absolute;
-  bottom: 2px;
-  left: 900px;
+  bottom: 0.1px;
+  left: 890px;
 }
 /* 
 font-family { -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
