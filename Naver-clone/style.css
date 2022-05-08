@@ -38,6 +38,7 @@
 
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 body {
@@ -270,11 +271,12 @@ header {
 
 .login__sub {
   display: flex;
+  justify-content: space-between;
+  margin: 0px 8px 0px 4px;
+  color: #505050;  
   font-size: 12px;
   line-height: 16px;
-  color: #202020;
   text-align: left;
-  justify-content: space-between;
 }
 
 .login__sub__idPassword a {
