@@ -207,29 +207,38 @@ header {
 }
 
 /* Main */
-#section {
+#main {
   display: flex;
-  padding: 20px 30px;
+  padding: 20px 0px;
 }
 
 /* Section Left */
+
+.section__left {
+  display: flex;
+  flex-direction: column;
+}
 
 /* Section Right */
 
 .section__right {
   width: 350px;
+  display: flex;
+  flex-direction: column;
 }
 
 .section__right__login {
   padding: 16px 16px 12px 17px;
   background-color: #f7f9fa;
   border: 1px solid #dae1e6;
+  margin: 0;
 }
 
 .login__msg {
   font-size: 12px;
   color: var(--color-grey);
   margin-bottom: 11px;
+  padding-left: 3px;
 }
 
 .login__link {
