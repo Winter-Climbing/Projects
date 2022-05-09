@@ -10,10 +10,11 @@
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
-  --color-blue: #73aace;
+  --color-light-blue: #73aace;
   --color-yellow: #f1d64e;
   --color-orange: #feb546;
   --color-black: #000000;
+  --color-blue:  #3565c9;
 
   /* Font size */
   --font-large: 48px;
@@ -38,6 +39,7 @@
 
 * {
   box-sizing: border-box;
+  margin: 0px;
 }
 
 body {
@@ -218,6 +220,8 @@ header {
 
 /* Section Left */
 
+/* Banner */
+
 .section__left {
   display: flex;
   flex-direction: column;
@@ -226,6 +230,47 @@ header {
 .section__left__ad img {
   border: 1px solid #dae1e6;
 }
+
+/* News Banner */
+
+.section__left__news {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f9fa;
+  padding: 12px 15px 11px;
+  border: 1px solid #dae1e6;
+  font-size: 13px;
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+.news__left__list {
+  display: flex;
+}
+
+.newsLeft__list__item {
+  padding-right: 12px;
+  margin-right: 7px;
+}
+
+.newsLeft__list__item__content {
+  color: var(--color-light-grey);
+  font-weight: 10;
+}
+
+.news__right__list {
+  display: flex;
+}
+
+.newsRight__list__item {
+  margin: 0px 4px 7px;
+}
+
+.newsRight__list__item__home {
+  color: var(--color-blue);
+}
+
+
 
 /* Section Right */
 
@@ -270,16 +315,19 @@ header {
 
 .login__sub {
   display: flex;
+  justify-content: space-between;
+  margin: 0px 8px 0px 4px;
+  color: #505050;  
   font-size: 12px;
   line-height: 16px;
-  color: #202020;
   text-align: left;
-  justify-content: space-between;
 }
 
 .login__sub__idPassword a {
   text-align: left;
 }
+
+
 
 
 
