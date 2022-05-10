@@ -309,16 +309,21 @@ header {
 
 /* newsTable */
 
+.section__left__newsTable__relative {
+  position: relative;
+}
+
 .section__left__newsTable {
   border: 0.2px solid rgb(228, 226, 226);
   border-collapse: collapse;
   border-spacing: 0;
-  position: relative;
+  width: 750px;
 }
 
 .newsTable__row th {
   border: 0.2px solid rgb(228, 226, 226);
   padding: 22px 0px;
+  width: 124.5px;
 }
 
 .newsTable__row img {
@@ -328,15 +333,17 @@ header {
 .newsTable__ico__btn {
   width: 44px;
   height: 44px;
+  padding-top: 5px;
   background-color: var(--color-white);
   border-radius: 50%;
-  border: 0.5px solid var(--color-light-grey);
-  right: 20%;
-  top: 85%;
   font-size: 20px;
   text-align: center;
   font-weight: 700;
-  color: var(--color-light-grey);
+  color: var(--color-light-grey);  
+  border-bottom:1.2px solid var(--color-light-grey);
+  position: absolute;
+  top: 43%;
+  right: -13px;
 }
 
 /* Section Right */
