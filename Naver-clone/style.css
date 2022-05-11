@@ -44,7 +44,7 @@
 
 body {
   width: 1130px;
-  height: 160px;
+  height: 4000px;
   cursor: default;
   margin: auto;
 }
@@ -66,8 +66,16 @@ button {
   outline: none;
 }
 
+cite {
+  font-style: none;
+}
+
 .blind {
   display: none;
+}
+
+.title {
+  font-size: 14px;
 }
 
 /* Typography */
@@ -242,6 +250,7 @@ header {
   font-size: 13px;
   color: var(--color-black);
   font-weight: 700;
+  width: 750px;
 }
 
 .news__left__list {
@@ -345,6 +354,240 @@ header {
   top: 43%;
   right: -13px;
 }
+
+/* Media */
+
+/* Media Title */
+
+.media__container {
+  padding: 35px 0px 27px;
+}
+
+.media__title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 17px;
+}
+
+.media__title__right,
+.media__title__left__writing,
+.media__title__right__writing {
+  font-size: 12px;
+  color: var(--color-light-grey);
+}
+
+.media__title__right strong {
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+/* Media List */
+
+.media__subject {
+  position: relative;
+}
+
+.media__subject__table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.row__item {
+  width: 94px;
+  height: 49px;
+  border: 0.2px solid rgb(228, 226, 226);
+  font-weight: 700;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.row__item-click {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.mediaSubject__ico__btn-left {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding-top: 5px;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-light-grey);  
+  border-bottom:1.2px solid var(--color-light-grey);
+  position: absolute;
+  top: 2%;
+  left: -22px;
+}
+
+.mediaSubject__ico__btn-right {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding-top: 5px;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-light-grey);  
+  border-bottom:1.2px solid var(--color-light-grey);
+  position: absolute;
+  right: -16px;
+  top: 2%;
+}
+
+/* Media Top Story */
+
+.media__topStory {
+  display: flex;
+  width: 750px;
+  height: 300px;
+  padding: 18px 0px;
+}
+
+.media__topStory__left,
+.media__topStory__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.media__topStory__right {
+  margin-left: 22px;
+}
+
+.topStory__left__video,
+.topStory__right__video {
+  position: relative;
+}
+
+.topStory__left__info,
+.topStory__right__info {
+  padding: 16px 18px 0px 0px;
+  font-size: 12px;
+  max-height: 44px;
+}
+
+.left__info__title,
+.right__info__title {
+  display: block;
+  color: blue;
+  margin-bottom: 3px;
+}
+
+.left__info__sentence,
+.right__info__sentence {
+  margin-bottom: 3px;
+  font-weight: 700;
+}
+
+.left__info__source,
+.right__info__source {
+  color: var(--color-light-grey);
+}
+
+.left__video__btn,
+.right__video__btn {
+  position: absolute;
+  top: 70%;
+  left: 15px;
+  font-size: 30px;
+  color: var(--color-light-white);
+}
+
+.left__video__img:hover,
+.right__video__img:hover {
+  overflow: hidden;
+  transform: scale(1.05);
+  transition: var(--annimation-duration);
+}
+
+/* Media theme Link */
+
+.mediaTheme__link__list {
+  display: flex;
+  justify-content: space-around;
+  padding: 11px 120px 11px 18px;
+  border: 1px solid #dae1e6;
+  background-color: #f7f9fa;
+  color: var(--color-black);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.mediaTheme__link__list__item {
+  padding: 5px 0px 4px;
+}
+
+.mediaTheme__link__list__item--home {
+  color: var(--color-blue);
+}
+
+.mediaTheme__link__list__item--bar {
+  color: var(--color-light-grey);
+  font-weight: 10;
+}
+
+/* Media View */
+
+.mediaView__top,
+.mediaView__bottom {
+  border-bottom: 0.2px solid #dae1e6;
+}
+
+.mediaView__top__first,
+.mediaView__top__second,
+.mediaView__top__third {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.mediaView__top1 {
+padding: 18px 0px 17px 0px;
+}
+
+.mediaView__info {
+  padding-top: 12px;
+  max-width: 222px;
+  max-height: 44px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.mediaView__info__title {
+  color: var(--color-blue);
+  margin-bottom: 2px;
+}
+
+.mediaView__info__sentence {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.mediaView__info__cite {
+  color: var(--color-light-grey);
+  font-weight: 100;
+}
+
+.mediaView__top1__img {
+  position: relative;
+}
+
+.mediaView__img__btn {
+  position: absolute;
+  top: 70%;
+  left: 15px;
+  font-size: 22px;
+  color: var(--color-light-white);
+}
+
+/* --------------- */
+
 
 /* Section Right */
 
