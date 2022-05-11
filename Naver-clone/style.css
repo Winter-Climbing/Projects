@@ -539,6 +539,11 @@ header {
   border-bottom: 0.2px solid #dae1e6;
 }
 
+.mediaView__bottom {
+  position: relative;
+  padding-bottom: 20px;
+}
+
 .mediaView__top__first,
 .mediaView__top__second,
 .mediaView__top__third {
@@ -584,6 +589,33 @@ padding: 18px 0px 17px 0px;
   left: 15px;
   font-size: 22px;
   color: var(--color-light-white);
+}
+
+.mediaView__footer {
+  cursor: pointer;
+}
+
+.mediaView__footer__btn {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding-top: 5px;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-light-grey);  
+  border-bottom:1.2px solid var(--color-light-grey);
+  position: absolute;
+  right: 47%;
+}
+
+.mediaView__footer p {
+  position: absolute;
+  right: 44%;
+  bottom: -50px;
+  font-size: 12px;
 }
 
 /* --------------- */
