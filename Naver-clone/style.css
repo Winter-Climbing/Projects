@@ -228,11 +228,15 @@ header {
 
 /* Section Left */
 
-/* Banner */
-
 .section__left {
   display: flex;
   flex-direction: column;
+}
+
+/* Banner */
+
+.section__left__ad {
+  margin-bottom: 7px;
 }
 
 .section__left__ad img {
@@ -635,7 +639,6 @@ padding: 18px 0px 17px 0px;
   padding: 16px 16px 12px 17px;
   background-color: #f7f9fa;
   border: 1px solid #dae1e6;
-  margin: 0;
 }
 
 .login__msg {
@@ -677,6 +680,55 @@ padding: 18px 0px 17px 0px;
 .login__sub__idPassword a {
   text-align: left;
 }
+
+/* On Time Data */
+
+.onTimeData {
+  display: flex;
+  padding: 15px 0px 14px 16px;
+  border: 1px solid #dae1e6;
+  background-color: #f7f9fa;
+  font-size: 13px;
+  justify-content: space-between;
+  align-items: center;
+  height: 51px;
+  margin: 11px 0px;
+}
+
+.onTimeData:hover {
+  cursor: pointer;
+}
+
+.onTimeData__title {
+  border: 1px solid #e4e8eb;
+  border-radius: 40px;
+  padding: 1px 7px;
+}
+
+.onTimeData__content {
+  margin-right: 32px;
+}
+
+.onTimeData__content:hover {
+  text-decoration: underline;
+}
+
+
+.onTimeData__btn {
+  display: flex;
+  margin-right: 11px;
+}
+
+.onTimeData__btn__left,
+.onTimeData__btn__right {
+  border: 1px solid #e4e8eb;
+  padding: 0px;
+  width: 23px;
+  height: 23px;
+  font-weight: 500;
+}
+
+
 
 
 
