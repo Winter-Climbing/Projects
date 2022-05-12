@@ -759,6 +759,35 @@ padding: 18px 0px 17px 0px;
 
 /* Shop Content */
 
+.shop__content {
+  border: 1px solid #e4e8eb;
+}
+
+/* Shopping mall list */
+
+.shopGroup__header {
+  padding: 12px 4px 11px 10px;
+  background-color: #f7f9fa;
+  border-bottom: 1px solid #dae1e6;
+}
+
+.shop__group {
+  padding: 4px 0px;
+  font-size: 12px;
+  color: var(--color-light-grey);
+  bac
+}
+
+.shop__group__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.shop__group__list__item--highlight {
+  color: var(--color-black);
+  font-weight: 700;
+}
+
 
 
 
