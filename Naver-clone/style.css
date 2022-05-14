@@ -99,12 +99,12 @@ h2 {
   margin: 8px 0;
 }
 
-h3 {
-  font-size: var(--font-regular);
+/* h3 {
+  /* font-size: var(--font-regular);
   font-weight: var(--weight-regular);
   color: var(--color-black);
-  margin: 8px 0;
-}
+  margin: 8px 0; */ */
+
 
 /* p {
   font-size: var(--font-regular);
@@ -799,6 +799,7 @@ padding: 18px 0px 17px 0px;
   font-size: 12px;
   text-align: center;
   position: relative;
+  border-bottom: 1px solid #dae1e6;
 }
 
 .goods__list {
@@ -853,6 +854,71 @@ padding: 18px 0px 17px 0px;
   margin: 0px 15px;
 }
 
+/* Shop Event */
+
+.group__event {
+  margin: 0px 8px;
+  padding: 19px 0px 17px;
+}
+
+.group__event__title {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.event__header {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.group__event__control {
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+}
+
+.group__event__num,
+.group__event__btn {
+  display: flex;
+  
+}
+
+.groupEvent__btn__left,
+.groupEvent__btn__right {
+  border: 1px solid #e4e8eb;
+  padding: 0px;
+  width: 23px;
+  height: 23px;
+  font-weight: 500;
+}
+
+.group__event__list {
+  margin: 13px 5px 0px;
+}
+
+.group__event__list__item {
+  font-size: 12px;
+  height: 28px;
+}
+
+.group__event__list__item  em {
+  margin-right: 8px;
+  font-weight: 700;
+}
+
+.group__event__list__item::before {
+  background-color: #1ace61;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  vertical-align: top;
+  content: '';
+  margin-right: 8px;
+  vertical-align: 2px;
+}
 
 
 
