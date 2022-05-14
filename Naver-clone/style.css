@@ -115,6 +115,12 @@ h2 {
 
 /* Header */
 
+.Naver__header {
+  width: 1130px;
+  height: 160px;
+  display: flex;
+}
+
 header {
   width: 1130px;
   height: 160px;
@@ -228,7 +234,6 @@ header {
   display: flex;
   padding: 20px 0px;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 /* Section Left */
@@ -376,6 +381,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding-bottom: 17px;
+  align-items: center;
 }
 
 .media__title__right,
@@ -859,6 +865,7 @@ padding: 18px 0px 17px 0px;
 .group__event {
   margin: 0px 8px;
   padding: 19px 0px 17px;
+  border-bottom: 1px solid #dae1e6;
 }
 
 .group__event__title {
@@ -877,6 +884,7 @@ padding: 18px 0px 17px 0px;
   display: flex;
   width: 100px;
   justify-content: space-around;
+  align-items: center;
 }
 
 .group__event__num,
@@ -889,8 +897,8 @@ padding: 18px 0px 17px 0px;
 .groupEvent__btn__right {
   border: 1px solid #e4e8eb;
   padding: 0px;
-  width: 23px;
-  height: 23px;
+  width: 26px;
+  height: 26px;
   font-weight: 500;
 }
 
@@ -907,8 +915,6 @@ padding: 18px 0px 17px 0px;
   margin-right: 8px;
 }
 
-
-
 .group__event__list__item::before {
   background-color: #1ace61;
   display: inline-block;
@@ -921,7 +927,68 @@ padding: 18px 0px 17px 0px;
   vertical-align: 2px;
 }
 
+/* 쇼핑 카테고리 */
 
+.shopCategory {
+  margin: 0px 8px;
+  padding: 0px 0px 17px;
+  font-size: 13px;
+  text-align: center;
+  border-bottom: 1px solid #dae1e6;
+}
+
+.shopCategory__header,
+.shopCategory__header__list,
+.shopCategory__header__control,
+.shopCategory__header__num,
+.shopCategory__header__btn,
+.shopCategory__content {
+  display: flex;
+  align-items: center;
+}
+
+.shopCategory__header {
+  justify-content: space-between;
+  padding: 17px 0px;
+}
+
+.shopCategory__header__list {
+  justify-content: space-around;
+}
+
+.shopCategory__header__list__item--click {
+  font-weight: 700;
+  color: var(--color-naverGreen);
+  text-decoration: underline;
+}
+
+.shopCategory__header__title {
+  width: 191px;
+  height: 19px;
+}
+
+.shopCategory__header__num p {
+  margin-right: 6px;
+}
+
+.shopCategory__header__btn__left,
+.shopCategory__header__btn__right {
+  border: 1px solid #e4e8eb;
+  padding: 0px;
+  width: 26px;
+  height: 26px;
+  font-weight: 500;
+}
+
+.shopCategory__content__left img,
+.shopCategory__content__right img {
+  margin-bottom: 7px;
+}
+
+.shopCategory__content__left__sentence {
+  font-size: 13px;
+  font-weight: 700;
+}
 
 
 
