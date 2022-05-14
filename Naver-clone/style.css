@@ -905,8 +905,9 @@ padding: 18px 0px 17px 0px;
 
 .group__event__list__item  em {
   margin-right: 8px;
-  font-weight: 700;
 }
+
+
 
 .group__event__list__item::before {
   background-color: #1ace61;
