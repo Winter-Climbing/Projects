@@ -44,7 +44,7 @@
 
 body {
   width: 1130px;
-  height: 4000px;
+  height: 3300px;
   cursor: default;
   margin: auto;
 }
@@ -802,7 +802,7 @@ padding: 18px 0px 17px 0px;
 /* Shop Goods */
 
 .shopGoods {
-  padding: 35px 8px 20px;
+  padding: 35px 5px 20px;
   font-size: 12px;
   text-align: center;
   position: relative;
@@ -1148,7 +1148,81 @@ padding: 18px 0px 17px 0px;
   color: var(--color-black);
 }
 
+/* Footer Area Partner */
 
+.footerPartner {
+  display: flex;
+  border-bottom: 1px solid #e4e8eb;
+}
 
+.footerArea__partner {
+  width: 780px;
+  padding: 20px 0;
+}
 
+.footerArea__partner__box {
+  display: flex;
+  margin-bottom: 9px;
+  align-items: flex-end;
+}
 
+.footerArea__partner__title {
+  width: 87px;
+}
+
+.footerArea__partner__sentence {
+  color: #777;
+}
+
+.footerArea__partner__sentence+
+.footerArea__partner__sentence::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  background-color: #e4e8eb;
+  margin: 0 8px;
+}
+
+.footerArea__serviceBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 350px;
+}
+
+.footerArea__serviceBox__content {
+  display: flex;
+}
+
+.footerArea__serviceBox__content__info {
+  margin-right: 15px;
+}
+
+/* Footer Company */
+
+.footerCompany {
+  display: flex;
+  padding-top: 25px;
+}
+
+.footerCompany__desList {
+  display: flex;
+  margin-right: 13px;
+  color: #777;
+}
+
+.footerCompany__desList__item+
+.footerCompany__desList__item::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  margin: 0 8px;
+  background-color: #e4e8eb;
+}
+
+.addr {
+  font-style: normal;
+  font-weight: 700;
+}
