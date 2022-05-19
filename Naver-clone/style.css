@@ -61,6 +61,10 @@ a {
   color: var(--color-white);
 }
 
+.aTextDeco--blue {
+  color: var(--color-blue);
+}
+
 em {
   font-style: normal;
   font-weight: 700;
