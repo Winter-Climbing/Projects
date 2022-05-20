@@ -951,6 +951,10 @@ padding: 18px 0px 17px 0px;
   margin-right: 8px;
 }
 
+.group__event__list__item:hover {
+  text-decoration: underline;
+}
+
 .group__event__list__item::before {
   background-color: #1ace61;
   display: inline-block;
@@ -1070,6 +1074,10 @@ padding: 18px 0px 17px 0px;
   margin-bottom: 14px;
 }
 
+.plusDeal__content:hover {
+  text-decoration: underline;
+}
+
 .plusDeal__content__imgs {
   display: flex;
   width: 155px;
@@ -1183,6 +1191,10 @@ padding: 18px 0px 17px 0px;
   color: var(--color-black);
 }
 
+.footerArea__notice p:hover {
+  text-decoration: underline;
+}
+
 /* Footer Area Partner */
 
 .footerPartner {
@@ -1207,6 +1219,10 @@ padding: 18px 0px 17px 0px;
 
 .footerArea__partner__sentence {
   color: #777;
+}
+
+.footerArea__partner__sentence:hover {
+  text-decoration: underline;
 }
 
 .footerArea__partner__sentence+
@@ -1234,6 +1250,10 @@ padding: 18px 0px 17px 0px;
   margin-right: 15px;
 }
 
+.footerArea__serviceBox__content__info p:hover {
+  text-decoration: underline;
+}
+
 /* Footer Company */
 
 .footerCompany {
@@ -1245,6 +1265,10 @@ padding: 18px 0px 17px 0px;
   display: flex;
   margin-right: 13px;
   color: #777;
+}
+
+.footerCompany__desList a:hover {
+  text-decoration: underline;
 }
 
 .footerCompany__desList__item+
