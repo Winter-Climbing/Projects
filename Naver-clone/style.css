@@ -703,6 +703,12 @@ padding: 18px 0px 17px 0px;
   flex-direction: column;
 }
 
+.sticky {
+  position: sticky;
+  top: 10px;
+}
+
+
 /* Login */
 
 .section__right__login {
